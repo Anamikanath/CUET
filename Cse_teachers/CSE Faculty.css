@@ -1,9 +1,4 @@
-body {
-  background-color: lightblue;
- 
-}
-@media(max-width:1200px)
-	{
+
 h1
 {
 	font-family: 'Lora',serif;
@@ -12,45 +7,19 @@ h1
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 2px 2px 2px #222;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: 100px;
 	padding: 15px 30px 15px 15px;
 	line-height: .75;
 	text-align: center;
 	background-color: dodgerblue;
+	border: 5px solid black;
 
 }
 #frt
 {
 	padding: 15px 15px 15px 15px;
 	height: 30px;
-}
-#vice
-{
-position: relative;
-		background-color: #ADD8E6;
-		font-size: 20px;
-		margin: 10px;
-		width: 31%;
-		height: 40%;
-		float: left;
-		border: 1px solid black;
-		padding: 10px 10px 10px 10px;
-		box-sizing: border-box;
-
-}
-#dean
-{
-	position: relative;
-		background-color: #ADD8E6;
-		font-size: 20px;
-		margin: 10px;
-		width: 31%;
-		height: 40%;
-		float: right;
-		border: 1px solid black;
-		padding: 10px 10px 10px 10px;
-		box-sizing: border-box;
 }
 #clr
 {
@@ -68,47 +37,85 @@ position: relative;
   text-align: center;
   padding:  10px 10px 10px 10px;
   font-weight: bold;
-  font-size: 40px;
-  background-color: dodgerblue;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  font-size: 35px;
+  background-color:#ADD8E6;
+ 
 }
+
 #head2,#head3,#head4,#head5
 {
 	margin-left: 43%;
+
+}
+#pls,#head2
+{
+	font-family: oxygen;
+	font-weight: bold;
+	
 }
 .col1 {
 		position: relative;
 		background-color: #ADD8E6;
-		font-size: 20px;
-		margin: 10px;
-		width: 31%;
+		margin: 20px;
+		width: 40%;
 		height: 40%;
 		float: left;
-		border: 1px solid black;
-		padding: 10px 10px 10px 10px;
+		padding: 15px 15px 15px 15px;
 		box-sizing: border-box;
+		/*margin-left: 30px;*/
+
 
 
 	}
 	.col2 {
 		position: relative;
 		background-color: #ADD8E6;
-		font-size: 20px;
-		margin: 10px;
-		width: 31%;
+		margin: 20px;
+		width: 40%;
 		height: 40%;
 		float: right;
-		border: 1px solid black;
-		padding: 10px 10px 10px 10px;
+		padding: 15px 15px 15px 15px;
 		box-sizing: border-box;
 
 	}
+#name
+{
+font-size: 20px;
+font-weight: bold;
 
+}
 
+}
+#pls
+{
+	font-family: oxygen;
+	font-weight: bold;
+
+}
+#tc
+{
+	padding:15px 15px 15px 15px; 
+}
+.fa {
+  padding: 8px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 .row:after {
 content: "";
 display: table;
-		}
 clear: both;
 }
