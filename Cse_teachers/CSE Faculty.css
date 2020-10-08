@@ -1,7 +1,9 @@
 body {
   background-color: lightblue;
-  background-image: url("All faculty.jpg");
+ 
 }
+@media(max-width:1200px)
+	{
 h1
 {
 	font-family: 'Lora',serif;
@@ -107,5 +109,6 @@ position: relative;
 .row:after {
 content: "";
 display: table;
+		}
 clear: both;
 }
